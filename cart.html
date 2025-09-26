@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href= "style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LuxTech — Cart</title>
+  <meta name="description" content="Your shopping bag and checkout." />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">LuxTech</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="ecosystem.html">Ecosystem</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html" aria-current="page">Cart</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <input class="search-bar" placeholder="Search..." aria-label="Search">
+      <a class="cart-link" href="cart.html">🛒</a>
+    </div>
+  </header>
+
+  <main class="container cart-page">
+    <h1>Your Bag</h1>
+    <p class="muted">Items you plan to purchase. Use the LUX Pay button to checkout (placeholder).</p>
+
+    <section class="bag-list">
+      <div class="bag-line">
+        <div class="line-left">
+          
+          <div>
+            <strong>LuxBook Pro X1</strong>
+            <p class="muted">1 × R21,399</p>
+          </div>
+        </div>
+        <div class="line-right">
+          <button class="btn">Remove</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="checkout">
+      <div class="summary">
+        <p>Subtotal <strong>R21,399</strong></p>
+      </div>
+
+      <div class="actions">
+        <button class="btn" onclick="location.href='products.html'">Continue shopping</button>
+        <button class="btn primary apple-pay" aria-label="Apple Pay"> Pay</button>
+      </div>
+
+      <p class="muted small">Note: The LUX button is a placeholder. For production integrate LUX Pay on the Web with merchant validation.</p>
+    </section>
+  </main>
+
+  <footer class="site">
+    <div class="container">
+      <small>© 2025 LuxTech.</small>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

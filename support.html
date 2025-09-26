@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href= "style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LuxTech — Support</title>
+  <meta name="description" content="FAQs, repair trackers and live chat." />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">LuxTech</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="support.html" aria-current="page">Support</a></li>
+        <li><a href="ecosystem.html">Ecosystem</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <input class="search-bar" placeholder="Search FAQs" aria-label="Search FAQs">
+      <a class="cart-link" href="cart.html">🛒</a>
+    </div>
+  </header>
+
+  <main class="container support-page">
+    <h1>Support & Help Centre</h1>
+
+    <section class="faq">
+      <h2>FAQs</h2>
+      <details open>
+        <summary>What is your warranty policy?</summary>
+        <div>All products include a 4-year limited warranty covering manufacturing defects.</div>
+      </details>
+
+      <details>
+        <summary>Do you offer live chat?</summary>
+        <div>Yes — use the chat widget to speak to support 24/7.</div>
+      </details>
+
+      <details>
+        <summary>How do I track a repair?</summary>
+        <div>Use the Repair Tracker below with your order and serial numbers.</div>
+      </details>
+    </section>
+
+    <section class="repair-tracker">
+      <h2>Repair Tracker</h2>
+      <form onsubmit="return false;">
+        <input placeholder="Order #" required>
+        <input placeholder="Serial #" required>
+        <button class="btn" type="submit">Check Status</button>
+      </form>
+      <p class="muted" id="tracker-result"></p>
+    </section>
+
+    <section class="live-chat">
+      <h2>Live Chat</h2>
+      <p class="muted">Click the chat bubble (bottom-right) to start a conversation with our team.</p>
+    </section>
+  </main>
+
+  <footer class="site">
+    <div class="container">
+      <small>© 2025 LuxTech.</small>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
