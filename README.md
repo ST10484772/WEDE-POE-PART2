@@ -50,4 +50,7 @@ Lenovo’s ThinkPad Z16 has problems with random restarts. (2022, September 9). 
 
 Istore.co.za. (2025). iStore South Africa | Buy Apple Products Online | Free Delivery. [online] Available at: https://www.istore.co.za/?srsltid=AfmBOooF4xtGWDrNcoyfT6IpWMBVbtTXnmQCJXNsE5IK_064wbrXHdm6 [Accessed 19 Aug. 2025]. 
 
-Wikipedia (2025). Apple Inc. [online] Wikipedia. Available at: https://en.w
+Wikipedia (2025). Apple Inc. [online] Wikipedia. Available at: https://en.wkipedia.org/wiki/Apple_Inc.. 
+
+‌Britannica (2023). Explore the history of Apple Inc. and its innovative products. [online] Encyclopedia Britannica. Available at: https://www.britannica.com/summary/Apple-Inc. 
+
